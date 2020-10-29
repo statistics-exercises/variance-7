@@ -11,5 +11,3 @@ Let's look at how this quantity depends on the number of random variables that i
 2. Set the first element of the array called `S2` equal to a sample variance computed using the above formula with n=2, the second element of this list to a sample variance computed using the above formula with n=3 and so up until you have computed the formula above with n=201.
 
 When your code is complete a graph showing the value of ![](https://render.githubusercontent.com/render/math?math=S^2) as a function of n will be generated.
-
-* The sample variance with n=1 is not defined as if n=1 the n-1 in the denominator is 0 and the numerator is similarly zero.   
