@@ -12,7 +12,7 @@ from AutoFeedback.randomclass import randomvar
 import unittest
 from main import *
 
-x = np.linspace(2,202,202)
+x = np.linspace(2,201,200)
 var = randomvar( 0.5, variance=1/12, dist="chi2", isinteger=False, meanconv=True ) 
 line1=line( x, var )
 
