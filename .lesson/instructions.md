@@ -2,9 +2,7 @@
 
 Let's look again at the sample variance computed, which is computed using:
 
-$$
-S^2=\frac{n}{n-1}\left[\left(\frac{1}{n}\sum_{i=1}^{n}X_i^2\right)-\overline{X}^2\right]
-$$
+![](equation.png)
 
 Let's now look at how this quantity depends on the number of random variables that it is computed from.  __To complete the exercise you need to generate a graph that shows how the estimate of the sample variance for a uniform random variable that lies between 0 and 1 depends on the number of random variables it is computed from.__   I have written some code to get you started with the exercise.  To complete the task you need to:
 
